@@ -13,7 +13,7 @@ namespace IRStask1
         START1:
             Console.Clear();
 
-            //User Inputs
+            
 
             Console.Write("Enter the height of the web of bulb section (in mm): ");
             webheight = Convert.ToInt32(Console.ReadLine());
