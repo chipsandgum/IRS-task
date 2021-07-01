@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IRStask2", "IRStask2\IRStas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IRStask3", "IRStask3\IRStask3.csproj", "{5F26ED54-ED6B-4CDE-B8CB-D1C6131E94DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IRStask1", "IRStask1\IRStask1.csproj", "{B83DBC4A-3FD6-4CB2-8259-74728D4E97FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{5F26ED54-ED6B-4CDE-B8CB-D1C6131E94DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F26ED54-ED6B-4CDE-B8CB-D1C6131E94DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F26ED54-ED6B-4CDE-B8CB-D1C6131E94DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B83DBC4A-3FD6-4CB2-8259-74728D4E97FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B83DBC4A-3FD6-4CB2-8259-74728D4E97FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B83DBC4A-3FD6-4CB2-8259-74728D4E97FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B83DBC4A-3FD6-4CB2-8259-74728D4E97FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

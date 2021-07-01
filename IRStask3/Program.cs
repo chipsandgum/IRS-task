@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace MainApp
+namespace IRStask3
 {
-    class IRStask3
+    class program
 
     {
         static void Main(string[] args)
