@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{06EAFA22-D609-4F48-B951-6F35A0BAEC75}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IRStask2", "IRStask2\IRStask2.csproj", "{0E1265F0-2834-4A85-BE0E-47A8191C2A5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IRStask3", "IRStask3\IRStask3.csproj", "{5F26ED54-ED6B-4CDE-B8CB-D1C6131E94DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06EAFA22-D609-4F48-B951-6F35A0BAEC75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06EAFA22-D609-4F48-B951-6F35A0BAEC75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06EAFA22-D609-4F48-B951-6F35A0BAEC75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06EAFA22-D609-4F48-B951-6F35A0BAEC75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E1265F0-2834-4A85-BE0E-47A8191C2A5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E1265F0-2834-4A85-BE0E-47A8191C2A5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E1265F0-2834-4A85-BE0E-47A8191C2A5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E1265F0-2834-4A85-BE0E-47A8191C2A5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F26ED54-ED6B-4CDE-B8CB-D1C6131E94DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F26ED54-ED6B-4CDE-B8CB-D1C6131E94DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F26ED54-ED6B-4CDE-B8CB-D1C6131E94DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F26ED54-ED6B-4CDE-B8CB-D1C6131E94DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {71195EEC-7E30-4C58-9475-04D5042FC349}
+	EndGlobalSection
+EndGlobal
