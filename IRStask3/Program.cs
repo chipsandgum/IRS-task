@@ -42,7 +42,7 @@ namespace IRStask3
                     Console.WriteLine("Enter the thickness of the web(in mm): ");
                     double tw = Convert.ToDouble(Console.ReadLine());
                     values = angleStiffener(bf, tf, hw, tw);
-                    Console.WriteLine($"THE CROSS-SECTIONAL AREA IS {Math.Round(values[0], 3)} sq.mm AND THE SECOND MOMENT OF AREA ABOUT NA IS {Math.Round(values[1], 3)} cm^4");
+                    Console.WriteLine($"Cross-sectional Area is {Math.Round(values[0], 3)} sq.mm the Second Moment of Area about the NA : {Math.Round(values[1], 3)} cm^4");
                     exceptionHandlerFunc();
                     break;
                 case "4":
