@@ -20,7 +20,7 @@ namespace IRStask1
             Console.Write("Enter the thickness of bulb section (in mm): ");
             bulbSectionThickness = Convert.ToInt32(Console.ReadLine());
 
-            //Output of Conversion from bulb to angled section
+            
             double[] values = converter(webheight, bulbSectionThickness);
             Console.WriteLine($"The values are \n height of web (AS): {Math.Round(values[0], 2)} mm," +
                 $"\n Thickness of web: {Math.Round(values[3], 2)} mm, \n height of flange: {Math.Round(values[1], 2)} mm, \n Thickness of flange: {Math.Round(values[2], 2)} mm, \n Cross-Sectional Area: {Math.Round(values[4], 2)} mm^2");
@@ -45,20 +45,20 @@ namespace IRStask1
 
         }
 
-        public static double[] converter(double hw, double tw)  //Function to convert bulb sections to angled ones
+        public static double[] converter(double hw, double tw)  
         {
             double angleheight, angleBreadth, webThickness, flangeThickness, alpha, csa;
             double[] values = new double[5];
 
             if (hw <= 120)
             {
-                alpha = 1.1 + Math.Pow((120 - hw), 2) / 3000;//alpha values are as per IRS rules
+                alpha = 1.1 + Math.Pow((120 - hw), 2) / 3000;
             }
             else
             {
                 alpha = 1;
             }
-            //All formulae derived from Rulebook
+            
             angleheight = hw + 2 - hw / 9.2; //hw
             angleBreadth = alpha * (tw - 2 + (hw / 6.7));//bf
             flangeThickness = (hw / 9.2) - 2;//tf

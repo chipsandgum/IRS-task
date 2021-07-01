@@ -19,7 +19,7 @@ namespace IRStask3
                     Console.WriteLine("Enter the thickness of the bar(in mm): ");
                     double thickness = Convert.ToDouble(Console.ReadLine());
                     values = flatStiffener(height, thickness);
-                    Console.WriteLine($"THE CROSS-SECTIONAL AREA IS {Math.Round(values[0], 3)} sq.mm AND THE SECOND MOMENT OF AREA ABOUT NA IS {Math.Round(values[1], 3)} cm^4");
+                    Console.WriteLine($"Cross-sectional Area is {Math.Round(values[0], 3)} sq.mm the Second Moment of Area about the NA : {Math.Round(values[1], 3)} cm^4");
                     exceptionHandlerFunc();
                     break;
                 case "2":
@@ -53,11 +53,11 @@ namespace IRStask3
                     double bulbWidth = Convert.ToDouble(Console.ReadLine());
                     values = bulbSection(bulbHeight, bulbWidth);
                     Console.WriteLine("Your bulb section has been converted to an angled section to calculate area and MOI.");
-                    Console.WriteLine($"THE CROSS-SECTIONAL AREA IS {Math.Round(values[0], 3)} sq.mm AND THE SECOND MOMENT OF AREA ABOUT NA IS {Math.Round(values[1], 3)} cm^4");
+                    Console.WriteLine($"Cross-sectional Area is{Math.Round(values[0], 3)} sq.mm the Second Moment of Area about the NA : {Math.Round(values[1], 3)} cm^4");
                     exceptionHandlerFunc();
                     break;
                 default:
-                    Console.WriteLine("Hey!\nLooks like some error occured. Maybe you did not enter the correct number or put an extra space before pressing enter.");
+                    Console.WriteLine("Please seect a number from 1-4.");
                     exceptionHandlerFunc();
                     break;
             }
@@ -109,13 +109,13 @@ namespace IRStask3
 
             if (hw <= 120)
             {
-                alpha = 1.1 + Math.Pow((120 - hw), 2) / 3000;//alpha values are as per IRS rules
+                alpha = 1.1 + Math.Pow((120 - hw), 2) / 3000;
             }
             else
             {
                 alpha = 1;
             }
-            //All formulae derived from Rulebook
+           
             angleLength = hw + 2 - hw / 9.2; //hw
             angleBreadth = alpha * (tw - 2 + (hw / 6.7));//bf
             flangeThickness = (hw / 9.2) - 2;//tf
